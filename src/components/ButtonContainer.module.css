@@ -1,0 +1,19 @@
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.button{
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  border-radius: 10px;
+  color: rgb(255, 2, 2);
+  background-color: rgb(0, 0, 0);
+}
+
+.button:active{
+  background-color: rgb(255, 208, 65);
+}
